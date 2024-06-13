@@ -61,7 +61,7 @@ export default function EyeTracker() {
 
   return (
     <div className="flex justify-evenly align-middle">
-      <div className="text-center m-5 p-8">
+      <div className="text-center m-5 ml-[6rem] p-8">
         {webGazerLoaded ? "WebGazer is running..." : "Loading WebGazer..."}
       </div>
       <div className="flex align-middle">
